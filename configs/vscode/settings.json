@@ -1,0 +1,13 @@
+// Example settings file showing how to define preset commands
+{
+    "maven.terminal.favorites": [
+        {
+            "command": "clean package install",
+            "debug": false
+        },
+        {
+            "command": "jetty:run",
+            "debug": true
+        }
+    ]
+}
